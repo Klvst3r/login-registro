@@ -9,7 +9,7 @@
 	<title>Login-Registro</title>
 </head>
 <body>
-	<center><div class="tit"><h2 style="color: #0000FF; ">Inicio de sesión</h2>
+	<center><div class="tit"><h2>Inicio de sesión</h2>
 		<center><div class="Ingreso">
 
 	<table border="0" align="center" valign="middle">
@@ -19,9 +19,9 @@
 
 		<table border="0">
 
-		<tr><td><label style="font-size: 14pt"><b>email: </b></label></td>
+		<tr><td><label><b>Email: </b></label></td>
 			<td width=80> <input class="form-group has-success" style="border-radius:15px;" type="text" name="mail"></td></tr>
-		<tr><td><label style="font-size: 14pt"><b>password: </b></label></td>
+		<tr><td><label><b>Password: </b></label></td>
 			<td witdh=80><input style="border-radius:15px;" type="password" name="pass"></td></tr>
 		<tr><td></td>
 			<td width=80 align=center><input class="btn btn-primary" type="submit" value="Aceptar"></td>
@@ -34,19 +34,19 @@
   <fieldset>
     <legend  style="font-size: 18pt"><b>Registro</b></legend>
     <div class="form-group">
-      <label style="font-size: 14pt"><b>Ingresa tu nombre</b></label>
+      <label><b>Ingresa tu nombre</b></label>
       <input type="text" name="realname" class="form-control" placeholder="Ingresa tu nombre" />
     </div>
     <div class="form-group">
-      <label style="font-size: 14pt; color: #FFFFFF;"><b>Ingresa tu email</b></label>
+      <label><b>Ingresa tu email</b></label>
       <input type="text" name="nick" class="form-control"  required placeholder="Ingresa mail"/>
     </div>
     <div class="form-group">
-      <label style="font-size: 14pt; color: #FFFFFF;"><b>Ingresa tu Password</b></label>
+      <label><b>Ingresa tu Password</b></label>
       <input type="password" name="pass" class="form-control"  placeholder="Ingresa contraseña" />
     </div>
     <div class="form-group">
-      <label style="font-size: 14pt"><b>Repite tu contraseña</b></label>
+      <label><b>Repite tu contraseña</b></label>
       <input type="password" name="rpass" class="form-control" required placeholder="repite contraseña" />
     </div>
       
