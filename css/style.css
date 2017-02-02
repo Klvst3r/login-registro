@@ -74,3 +74,7 @@ div.alert{
 	color: red;
 	font-size: 12pt;
 }
+img.resized {
+	 max-width:50%;
+   	 max-height:50%;
+}
