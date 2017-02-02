@@ -1,11 +1,12 @@
 <?php
 session_start();
+	
 	require("sql/connect_db.php");
 
 	echo $username=$_POST['mail'];
 	echo $pass=$_POST['pass'];
 
-
+/*
 	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE email='$username'");
 	if($f2=mysqli_fetch_assoc($sql2)){
 		if($pass==$f2['pasadmin']){
@@ -40,5 +41,5 @@ session_start();
 		echo "<script>location.href='index.php'</script>";	
 
 	}
-
+*/
 ?>
