@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>Proyecto academias</title>
+	<title>Login-Registro</title>
 </head>
 <body>
 
