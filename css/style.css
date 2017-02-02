@@ -52,10 +52,17 @@ section#contenido{
 .tit
 {
 	color: #000fff;	
+
 }
 
 label
 {
 	color: #000000;
 	font-size: 14pt
+}
+
+input.round-border {
+	color: #000;
+	border-radius:7px;
+
 }
