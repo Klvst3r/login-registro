@@ -13,7 +13,7 @@
 <center><div class="tit"><h2 style="color: #0000FF; ">Inicio de sesión</h2>
     <center><div class="Ingreso">
 
-<form action="validar.php" method="post">
+<form action="validate.php" method="post">
 <center>
 	<table border="0" width="350">
 
