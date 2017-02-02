@@ -21,19 +21,13 @@
     <script src="bootstrap/js/jquery-1.8.3.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
-
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
-<body data-offset="40" background="images/fondotot.jpg" style="background-attachment: fixed">
+<body >
 <div class="container">
 <header class="header">
 <div class="row">
 	<?php
-	include("include/cabecera.php");
+	include("inc/head.php");
 	?>
 </div>
 </header>
@@ -42,7 +36,7 @@
     ================================================== -->
 <?php
 
-include("include/menu.php");
+include("inc/menu.php");
 
 ?>
 <!-- ======================================================================================================================== -->
