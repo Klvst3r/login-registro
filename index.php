@@ -42,10 +42,20 @@
         
 <br/><br/>    
 
-<!-- form register -->       
+<!-- form register -->     
+
+
 <form method="post" action="" >
 <fieldset>
     <legend><b>Registro</b></legend>
+
+<?php
+
+if(isset($_POST['submit'])){
+      require("register.php");
+    }
+
+ ?>
 
 <table height="150" width="350" border="0" align="center" valign="middle">
 		<tr>
@@ -77,13 +87,7 @@
     </center>
     </div>
 
-<?php
 
-if(isset($_POST['submit'])){
-      require("registro.php");
-    }
-
- ?>
 
 
     </td>
