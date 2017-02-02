@@ -3,11 +3,11 @@ session_start();
 	
 	require("sql/connect_db.php");
 
-	echo $username=$_POST['mail'];
-	echo $pass=$_POST['pass'];
+	$username=$_POST['mail'];
+	$pass=$_POST['pass'];
 
-/*
 	$sql2=mysqli_query($mysqli,"SELECT * FROM login WHERE email='$username'");
+
 	if($f2=mysqli_fetch_assoc($sql2)){
 		if($pass==$f2['pasadmin']){
 			$_SESSION['id']=$f2['id'];
@@ -21,6 +21,8 @@ session_start();
 	}
 
 
+
+
 	$sql=mysqli_query($mysqli,"SELECT * FROM login WHERE email='$username'");
 	if($f=mysqli_fetch_assoc($sql)){
 		if($pass==$f['password']){
@@ -28,7 +30,7 @@ session_start();
 			$_SESSION['user']=$f['user'];
 			$_SESSION['rol']=$f['rol'];
 
-			header("Location: index2.php");
+			header("Location: home.php");
 		}else{
 			echo '<script>alert("CONTRASEÑA INCORRECTA")</script> ';
 		
@@ -41,5 +43,5 @@ session_start();
 		echo "<script>location.href='index.php'</script>";	
 
 	}
-*/
+
 ?>
