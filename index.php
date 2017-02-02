@@ -42,10 +42,10 @@
         
 <br/><br/>    
 
-<!-- formulario registro -->       
+<!-- form register -->       
 <form method="post" action="" >
 <fieldset>
-    <legend  style="font-size: 18pt"><b>Registro</b></legend>
+    <legend><b>Registro</b></legend>
 
 <table height="150" width="350" border="0" align="center" valign="middle">
 		<tr>
@@ -53,17 +53,17 @@
 
     <div class="form-group">
       <label><b>Ingresa tu nombre</b></label>
-      <input type="text" name="realname" class="form-control" placeholder="Ingresa tu nombre" />
+      <input type="text" name="realname" class="form-control" required placeholder="Ingresa tu nombre" />
     </div>
     
     <div class="form-group">
       <label><b>Ingresa tu email</b></label>
-      <input type="text" name="nick" class="form-control"  required placeholder="Ingresa mail"/>
+      <input type="text" name="nick" class="form-control"  required placeholder="Ingresa tu email"/>
     </div>
 
     <div class="form-group">
       <label><b>Ingresa tu Password</b></label>
-      <input type="password" name="pass" class="form-control"  placeholder="Ingresa contraseña" />
+      <input type="password" name="pass" class="form-control"  required placeholder="Ingresa contraseña" />
     </div>
 
     <div class="form-group">
@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
 		</tr>
 		</table>
       
-<!--Fin formulario registro -->
+<!--End Form Register -->
  </fieldset>
  </form>
 
