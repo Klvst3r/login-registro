@@ -78,3 +78,25 @@ img.resized {
 	 max-width:50%;
    	 max-height:50%;
 }
+
+
+.img-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.img-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: .6s ease-in-out left;
+       -o-transition: .6s ease-in-out left;
+          transition: .6s ease-in-out left;
+}
+.img-inner > .item > img,
+.img-inner > .item > a > img {
+  line-height: 1;
+}
+
+.txt-caption {
+   position: static;
+}
